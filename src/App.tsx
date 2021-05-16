@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
 import SomeComponent from "./components/SomeComponent";
+import Tasks from "./components/Tasks";
 
 function App() {
     let age = 20;
   return (
     <div className="App">
         <Header />
+        <Tasks />
     </div>
   );
 }
