@@ -1,10 +1,13 @@
 import React from "react";
 import Header from "./components/header/Header";
+import SomeComponent from "./components/SomeComponent";
 
 function App() {
+    let age = 20;
   return (
     <div className="App">
         <h1>Yo mama so fat</h1>
+        <SomeComponent name="Daniel" age={age} isOlderThan15={age > 15} />
     </div>
   );
 }
