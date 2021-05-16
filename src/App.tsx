@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Yo mama so fat</h1>
     </div>
   );
 }
+
+
+// Using a variable instead of a function
+
+// const App = () => {
+//     return (
+//         <div className="App">
+//             <h1>Hello from a const variable</h1>
+//         </div>
+//     );
+// };
+
+
+
+// Using a class instead of a function or a variable in react
+
+// class App extends React.Component {
+//     render() {
+//         return <h1>Hello from a class</h1>
+//     }
+// }
 
 export default App;
