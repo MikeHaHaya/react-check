@@ -13,8 +13,9 @@ const SomeComponent: React.FC<Props> = ({name, age, isOlderThan15}) => {
         <div>
             <h2>Name - {name}</h2>
             <h2>Age - {age}</h2>
-            <h2>Older than 15 - {isOlderThan15}</h2> // Figure out how to print a boolean
+            <h2>Older than 15 - {isOlderThan15}</h2>
         </div>
+        // Figure out how to print a boolean
     );
 };
 
