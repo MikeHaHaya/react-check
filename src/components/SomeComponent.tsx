@@ -19,6 +19,12 @@ const SomeComponent: React.FC<Props> = ({name, age, isOlderThan15}) => {
     );
 };
 
+
+
+
+
+
+
 // The old fashion way to use props variables
 
 // const SomeComponent = ({name, age} : Props) => {
